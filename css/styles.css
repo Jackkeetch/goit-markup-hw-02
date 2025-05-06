@@ -1,12 +1,10 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #434455;
   background-color: #fff;
 }
-.container {
-  max-width: 1168px;
-}
+
 a {
   text-decoration: none;
   color: #2e2f42;
@@ -14,31 +12,17 @@ a {
 ul {
   list-style-type: none;
 }
-.logo-web {
-  text-transform: uppercase;
+.header_logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-studio1 {
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
-}
-.logo-studio2 {
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
-  color: #ffffff;
+.header_span {
+  color: #2e2f42;
 }
 
 .list-item {
@@ -47,14 +31,37 @@ ul {
   font-size: 16px;
   line-height: 24px;
 }
-address {
+.list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.list-link:hover {
+  color: #404bbf;
+}
+.list-link:focus {
+  color: #404bbf;
+}
+
+.address {
   font-style: normal;
-  letter-spacing: 2%;
+}
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-link:hover {
+  color: #404bbf;
+}
+.address-link:focus {
+  color: #404bbf;
 }
 .main-top {
   background-color: #2e2f42;
-  width: 100%;
-  height: 600px;
 }
 h1 {
   font-weight: 700;
@@ -74,14 +81,23 @@ h3 {
 }
 .main-button {
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
   border: none;
   color: #ffffff;
 }
 footer {
   background-color: #2e2f42;
-  height: 312px;
+}
+.footer_logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer_span {
+  color: #fff;
 }
 .footer-text {
   color: #ffffff;

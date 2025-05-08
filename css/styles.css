@@ -63,13 +63,30 @@ ul {
 .main-top {
   background-color: #2e2f42;
 }
-h1 {
+.main-top__text {
   font-weight: 700;
   font-size: 56px;
+  text-align: center;
   line-height: 60px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
+.main-button {
+  background-color: #4d5ae5;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.main-button:hover {
+  background-color: #404bbf;
+}
+.main-button:focus {
+  background-color: #404bbf;
+}
+
 h2 {
   font-size: 36px;
   font-weight: 700;
@@ -79,11 +96,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
 }
-.main-button {
-  background-color: #4d5ae5;
-  border: none;
-  color: #ffffff;
-}
+
 footer {
   background-color: #2e2f42;
 }
